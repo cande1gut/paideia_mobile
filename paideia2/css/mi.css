@@ -1,0 +1,118 @@
+body {
+	overflow: hidden;
+	/*background: url('../img/fondo.jpg') no-repeat center center;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#map_canvas{
+	width: 100%; 
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top{
+	position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+}
+
+#bottom{
+	position: absolute;
+    width: 500px;
+    height: 70px;
+    z-index: 2;
+	left: 0; 
+	right:0;
+    margin: auto;
+    bottom: -4px;
+}
+
+#icons{
+	position: absolute;
+	text-align: center;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+#enfermedades{
+	margin-right: 46px;
+	margin-left: 26px;
+}
+
+#hospitales{
+	margin-right: -13px;
+}
+
+#farmacias{
+	margin-left: 55px;
+	margin-right: 40px;
+}
+
+#up{
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+	left: 0; 
+	right:0;
+    margin: auto;
+    bottom: 10px;
+}
+
+#close{
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+	left: 0; 
+	right:0;
+    margin: auto;
+    bottom: 10px;
+}
+
+#dialog{
+	position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+	left: 0; 
+	right:0;
+    margin: auto;
+    bottom: 10px;
+}
+
+p, h3, .ima{
+	text-align: center;
+}
+
+#am, #sm{
+	position: absolute;
+    z-index: 2;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-top: 80px;
+}
+
+#sm{
+	position: absolute;
+    z-index: 2;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-top: 80px;
+}
